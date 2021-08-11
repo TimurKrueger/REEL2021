@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1102E4EA48DD0DF3C546FB7D /* Pods_REEL2021.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C7D3DA73FBDC5044896A2C /* Pods_REEL2021.framework */; };
+		EB14294F25DD7D24001B1E34 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14294E25DD7D24001B1E34 /* Utilities.swift */; };
+		EB14295225DD7D4C001B1E34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14295125DD7D4B001B1E34 /* LoginViewController.swift */; };
+		EB14295725DD7DA0001B1E34 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14295625DD7DA0001B1E34 /* SignUpViewController.swift */; };
+		EB14295B25DD999B001B1E34 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14295A25DD999A001B1E34 /* TabBarController.swift */; };
+		EB56DEED25828C8500B645DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB56DEEC25828C8400B645DC /* HomeViewController.swift */; };
+		EB56DF2E2582D17500B645DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB56DF2D2582D17500B645DC /* GoogleService-Info.plist */; };
+		EB56DF312582D25800B645DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB56DF302582D25800B645DC /* Constants.swift */; };
+		EB56DF802583B78E00B645DC /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB56DF7F2583B78D00B645DC /* Schedule.swift */; };
+		EB6DB10625E1DE8E001A9CDA /* FCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DB10525E1DE8D001A9CDA /* FCViewController.swift */; };
+		EBFEFD382565DFBD008282D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFD372565DFBD008282D2 /* AppDelegate.swift */; };
+		EBFEFD3A2565DFBD008282D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFD392565DFBD008282D2 /* SceneDelegate.swift */; };
+		EBFEFD3F2565DFBD008282D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFD3D2565DFBD008282D2 /* Main.storyboard */; };
+		EBFEFD412565DFC9008282D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFD402565DFC9008282D2 /* Assets.xcassets */; };
+		EBFEFD442565DFC9008282D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFD422565DFC9008282D2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57C7D3DA73FBDC5044896A2C /* Pods_REEL2021.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REEL2021.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8460A48389F39E2731CA83F3 /* Pods-REEL2021.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REEL2021.debug.xcconfig"; path = "Target Support Files/Pods-REEL2021/Pods-REEL2021.debug.xcconfig"; sourceTree = "<group>"; };
+		D1795F758ABC0D53A45FF833 /* Pods-REEL2021.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REEL2021.release.xcconfig"; path = "Target Support Files/Pods-REEL2021/Pods-REEL2021.release.xcconfig"; sourceTree = "<group>"; };
+		EB14294E25DD7D24001B1E34 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EB14295125DD7D4B001B1E34 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB14295625DD7DA0001B1E34 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../../XCode/Projects/Eurobase/Eurobase/Controller/SignUpViewController.swift; sourceTree = "<group>"; };
+		EB14295A25DD999A001B1E34 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		EB56DEEC25828C8400B645DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EB56DF2D2582D17500B645DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EB56DF302582D25800B645DC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EB56DF7F2583B78D00B645DC /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		EB6DB10125E1AFB5001A9CDA /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		EB6DB10225E1AFBE001A9CDA /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		EB6DB10525E1DE8D001A9CDA /* FCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FCViewController.swift; path = ../../../XCode/Extracurricular/FriendlyChat/FriendlyChatSwift/FCViewController.swift; sourceTree = "<group>"; };
+		EBFEFD342565DFBD008282D2 /* REEL2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REEL2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFEFD372565DFBD008282D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBFEFD392565DFBD008282D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBFEFD3E2565DFBD008282D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBFEFD402565DFC9008282D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBFEFD432565DFC9008282D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBFEFD452565DFC9008282D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBFEFD312565DFBD008282D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1102E4EA48DD0DF3C546FB7D /* Pods_REEL2021.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46716C05F8AA753D20E97F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C7D3DA73FBDC5044896A2C /* Pods_REEL2021.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		575BF8B02E15AFE8EEB2CD61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8460A48389F39E2731CA83F3 /* Pods-REEL2021.debug.xcconfig */,
+				D1795F758ABC0D53A45FF833 /* Pods-REEL2021.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB14294D25DD7CB3001B1E34 /* Perso */ = {
+			isa = PBXGroup;
+			children = (
+				EB14294E25DD7D24001B1E34 /* Utilities.swift */,
+			);
+			path = Perso;
+			sourceTree = "<group>";
+		};
+		EBA92E8325783467007B0262 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB14295125DD7D4B001B1E34 /* LoginViewController.swift */,
+				EB14295625DD7DA0001B1E34 /* SignUpViewController.swift */,
+				EB6DB10525E1DE8D001A9CDA /* FCViewController.swift */,
+				EB56DEEC25828C8400B645DC /* HomeViewController.swift */,
+				EB56DF7F2583B78D00B645DC /* Schedule.swift */,
+				EB14295A25DD999A001B1E34 /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBA92EC92578364A007B0262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBFEFD422565DFC9008282D2 /* LaunchScreen.storyboard */,
+				EB6DB10125E1AFB5001A9CDA /* Roboto-Regular.ttf */,
+				EB6DB10225E1AFBE001A9CDA /* RobotoMono-Regular.ttf */,
+				EBFEFD402565DFC9008282D2 /* Assets.xcassets */,
+				EBFEFD3D2565DFBD008282D2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBFEFD2B2565DFBC008282D2 = {
+			isa = PBXGroup;
+			children = (
+				EBFEFD362565DFBD008282D2 /* REEL2021 */,
+				EBFEFD352565DFBD008282D2 /* Products */,
+				575BF8B02E15AFE8EEB2CD61 /* Pods */,
+				46716C05F8AA753D20E97F3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBFEFD352565DFBD008282D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBFEFD342565DFBD008282D2 /* REEL2021.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBFEFD362565DFBD008282D2 /* REEL2021 */ = {
+			isa = PBXGroup;
+			children = (
+				EB14294D25DD7CB3001B1E34 /* Perso */,
+				EB56DF2D2582D17500B645DC /* GoogleService-Info.plist */,
+				EBA92EC92578364A007B0262 /* View */,
+				EBA92E8325783467007B0262 /* Controller */,
+				EBFEFD372565DFBD008282D2 /* AppDelegate.swift */,
+				EBFEFD392565DFBD008282D2 /* SceneDelegate.swift */,
+				EBFEFD452565DFC9008282D2 /* Info.plist */,
+				EB56DF302582D25800B645DC /* Constants.swift */,
+			);
+			path = REEL2021;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBFEFD332565DFBD008282D2 /* REEL2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFEFD482565DFC9008282D2 /* Build configuration list for PBXNativeTarget "REEL2021" */;
+			buildPhases = (
+				F545909A40026915243FDB0C /* [CP] Check Pods Manifest.lock */,
+				EBFEFD302565DFBD008282D2 /* Sources */,
+				EBFEFD312565DFBD008282D2 /* Frameworks */,
+				EBFEFD322565DFBD008282D2 /* Resources */,
+				85408524886B1C596558AFF6 /* [CP] Embed Pods Frameworks */,
+				936722E20009456FA41B8D3F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REEL2021;
+			productName = REEL2021;
+			productReference = EBFEFD342565DFBD008282D2 /* REEL2021.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBFEFD2C2565DFBC008282D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EBFEFD332565DFBD008282D2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EBFEFD2F2565DFBC008282D2 /* Build configuration list for PBXProject "REEL2021" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBFEFD2B2565DFBC008282D2;
+			productRefGroup = EBFEFD352565DFBD008282D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBFEFD332565DFBD008282D2 /* REEL2021 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBFEFD322565DFBD008282D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFEFD442565DFC9008282D2 /* LaunchScreen.storyboard in Resources */,
+				EB56DF2E2582D17500B645DC /* GoogleService-Info.plist in Resources */,
+				EBFEFD412565DFC9008282D2 /* Assets.xcassets in Resources */,
+				EBFEFD3F2565DFBD008282D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85408524886B1C596558AFF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-REEL2021/Pods-REEL2021-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-REEL2021/Pods-REEL2021-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-REEL2021/Pods-REEL2021-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936722E20009456FA41B8D3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-REEL2021/Pods-REEL2021-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-REEL2021/Pods-REEL2021-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-REEL2021/Pods-REEL2021-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F545909A40026915243FDB0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-REEL2021-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBFEFD302565DFBD008282D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFEFD382565DFBD008282D2 /* AppDelegate.swift in Sources */,
+				EB56DF802583B78E00B645DC /* Schedule.swift in Sources */,
+				EBFEFD3A2565DFBD008282D2 /* SceneDelegate.swift in Sources */,
+				EB6DB10625E1DE8E001A9CDA /* FCViewController.swift in Sources */,
+				EB14295B25DD999B001B1E34 /* TabBarController.swift in Sources */,
+				EB14295725DD7DA0001B1E34 /* SignUpViewController.swift in Sources */,
+				EB56DEED25828C8500B645DC /* HomeViewController.swift in Sources */,
+				EB14294F25DD7D24001B1E34 /* Utilities.swift in Sources */,
+				EB56DF312582D25800B645DC /* Constants.swift in Sources */,
+				EB14295225DD7D4C001B1E34 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBFEFD3D2565DFBD008282D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFEFD3E2565DFBD008282D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBFEFD422565DFC9008282D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFEFD432565DFC9008282D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBFEFD462565DFC9008282D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBFEFD472565DFC9008282D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBFEFD492565DFC9008282D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8460A48389F39E2731CA83F3 /* Pods-REEL2021.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7WJVMJ72M;
+				INFOPLIST_FILE = REEL2021/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Louis-Hakim.REEL2021";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBFEFD4A2565DFC9008282D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1795F758ABC0D53A45FF833 /* Pods-REEL2021.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7WJVMJ72M;
+				INFOPLIST_FILE = REEL2021/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Louis-Hakim.REEL2021";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBFEFD2F2565DFBC008282D2 /* Build configuration list for PBXProject "REEL2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFEFD462565DFC9008282D2 /* Debug */,
+				EBFEFD472565DFC9008282D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFEFD482565DFC9008282D2 /* Build configuration list for PBXNativeTarget "REEL2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFEFD492565DFC9008282D2 /* Debug */,
+				EBFEFD4A2565DFC9008282D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBFEFD2C2565DFBC008282D2 /* Project object */;
+}

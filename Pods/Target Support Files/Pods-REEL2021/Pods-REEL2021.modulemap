@@ -1,0 +1,6 @@
+framework module Pods_REEL2021 {
+  umbrella header "Pods-REEL2021-umbrella.h"
+
+  export *
+  module * { export * }
+}
