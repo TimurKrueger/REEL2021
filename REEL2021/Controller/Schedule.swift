@@ -4,16 +4,16 @@
 //
 //  Created by Louis Hakim on 11.12.20.
 //
-
+/*
 import Foundation
 import UIKit
 
 
 class Schedule: UIViewController {
     
-    @IBOutlet weak var pickerView: UIPickerView!
-    @IBOutlet weak var scheduleView: UITextView!
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var scheduleView: UITextView!
+    @IBOutlet weak var pickerView: UIPickerView!
     
     var days = ["---","Jeudi", "Vendredi", "Samedi", "Dimanche"]
     
@@ -25,27 +25,27 @@ class Schedule: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pickerView.delegate = self
+      pickerView.delegate = self
         pickerView.dataSource = self
-       
+    }
         
         // Customizing the textview
-        
+    /*
         scheduleView.backgroundColor = UIColor(red: 28, green: 37, blue: 67, alpha: 1)
         //scheduleView.backgroundColor = .secondarySystemBackground
         scheduleView.textColor = .secondaryLabel
         scheduleView.layer.cornerRadius = 20
         scheduleView.textContainerInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         
-        // Gibe the textview a shadow
+        // Give the textview a shadow
         scheduleView.layer.shadowColor = UIColor.gray.cgColor
         scheduleView.layer.shadowOffset = CGSize(width: 0.75, height: 0.75)
         scheduleView.layer.shadowOpacity = 0.4
         scheduleView.layer.shadowRadius = 20
         scheduleView.layer.masksToBounds = false
-        
+      */
     }
-}
+
 
 extension Schedule: UIPickerViewDelegate, UIPickerViewDataSource {
         
@@ -93,4 +93,4 @@ extension Schedule: UIPickerViewDelegate, UIPickerViewDataSource {
         
     }
 
-
+*/

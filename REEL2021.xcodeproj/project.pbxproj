@@ -12,6 +12,11 @@
 		EB14295225DD7D4C001B1E34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14295125DD7D4B001B1E34 /* LoginViewController.swift */; };
 		EB14295725DD7DA0001B1E34 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14295625DD7DA0001B1E34 /* SignUpViewController.swift */; };
 		EB14295B25DD999B001B1E34 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14295A25DD999A001B1E34 /* TabBarController.swift */; };
+		EB52070C26C5227C002C5BF9 /* EventVerlauf.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52070B26C5227B002C5BF9 /* EventVerlauf.swift */; };
+		EB52071026C56ED2002C5BF9 /* Memories.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52070F26C56ED0002C5BF9 /* Memories.swift */; };
+		EB52071426C5720E002C5BF9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52071226C5720D002C5BF9 /* PostTableViewCell.swift */; };
+		EB52071526C5720E002C5BF9 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB52071326C5720E002C5BF9 /* PostTableViewCell.xib */; };
+		EB52071826C588F4002C5BF9 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52071726C588F3002C5BF9 /* UploadViewController.swift */; };
 		EB56DEED25828C8500B645DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB56DEEC25828C8400B645DC /* HomeViewController.swift */; };
 		EB56DF2E2582D17500B645DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB56DF2D2582D17500B645DC /* GoogleService-Info.plist */; };
 		EB56DF312582D25800B645DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB56DF302582D25800B645DC /* Constants.swift */; };
@@ -32,6 +37,11 @@
 		EB14295125DD7D4B001B1E34 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EB14295625DD7DA0001B1E34 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../../XCode/Projects/Eurobase/Eurobase/Controller/SignUpViewController.swift; sourceTree = "<group>"; };
 		EB14295A25DD999A001B1E34 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		EB52070B26C5227B002C5BF9 /* EventVerlauf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVerlauf.swift; sourceTree = "<group>"; };
+		EB52070F26C56ED0002C5BF9 /* Memories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memories.swift; sourceTree = "<group>"; };
+		EB52071226C5720D002C5BF9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		EB52071326C5720E002C5BF9 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		EB52071726C588F3002C5BF9 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		EB56DEEC25828C8400B645DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EB56DF2D2582D17500B645DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EB56DF302582D25800B645DC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -94,6 +104,11 @@
 				EB56DEEC25828C8400B645DC /* HomeViewController.swift */,
 				EB56DF7F2583B78D00B645DC /* Schedule.swift */,
 				EB14295A25DD999A001B1E34 /* TabBarController.swift */,
+				EB52070B26C5227B002C5BF9 /* EventVerlauf.swift */,
+				EB52070F26C56ED0002C5BF9 /* Memories.swift */,
+				EB52071226C5720D002C5BF9 /* PostTableViewCell.swift */,
+				EB52071326C5720E002C5BF9 /* PostTableViewCell.xib */,
+				EB52071726C588F3002C5BF9 /* UploadViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -204,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBFEFD442565DFC9008282D2 /* LaunchScreen.storyboard in Resources */,
+				EB52071526C5720E002C5BF9 /* PostTableViewCell.xib in Resources */,
 				EB56DF2E2582D17500B645DC /* GoogleService-Info.plist in Resources */,
 				EBFEFD412565DFC9008282D2 /* Assets.xcassets in Resources */,
 				EBFEFD3F2565DFBD008282D2 /* Main.storyboard in Resources */,
@@ -277,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBFEFD382565DFBD008282D2 /* AppDelegate.swift in Sources */,
+				EB52071826C588F4002C5BF9 /* UploadViewController.swift in Sources */,
 				EB56DF802583B78E00B645DC /* Schedule.swift in Sources */,
+				EB52071426C5720E002C5BF9 /* PostTableViewCell.swift in Sources */,
 				EBFEFD3A2565DFBD008282D2 /* SceneDelegate.swift in Sources */,
 				EB6DB10625E1DE8E001A9CDA /* FCViewController.swift in Sources */,
 				EB14295B25DD999B001B1E34 /* TabBarController.swift in Sources */,
@@ -285,6 +303,8 @@
 				EB56DEED25828C8500B645DC /* HomeViewController.swift in Sources */,
 				EB14294F25DD7D24001B1E34 /* Utilities.swift in Sources */,
 				EB56DF312582D25800B645DC /* Constants.swift in Sources */,
+				EB52070C26C5227C002C5BF9 /* EventVerlauf.swift in Sources */,
+				EB52071026C56ED2002C5BF9 /* Memories.swift in Sources */,
 				EB14295225DD7D4C001B1E34 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

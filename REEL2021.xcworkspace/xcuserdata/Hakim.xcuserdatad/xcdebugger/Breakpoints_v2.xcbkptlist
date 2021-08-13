@@ -20,5 +20,145 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF0A77A8-8BDC-47A5-9CAD-BD58D353EE0D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REEL2021/Controller/Schedule.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E91CD159-0F82-4ABB-96B0-171EF4444FDF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REEL2021/Controller/Schedule.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "914AC92D-28CD-43E8-B00B-B9F98EC93A33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "REEL2021/Controller/Memories.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Memories"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "914AC92D-28CD-43E8-B00B-B9F98EC93A33 - b8da340025aefb72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REEL2021.Memories.table.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "REEL2021"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hakim/Desktop/REEL2021/REEL2021/Controller/Memories.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "914AC92D-28CD-43E8-B00B-B9F98EC93A33 - 8c9042792b32936a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REEL2021.Memories.table.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "REEL2021"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hakim/Desktop/REEL2021/REEL2021/Controller/Memories.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "914AC92D-28CD-43E8-B00B-B9F98EC93A33 - 79c6ba6937150357"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REEL2021.Memories.table.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "REEL2021"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hakim/Desktop/REEL2021/REEL2021/Controller/Memories.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "914AC92D-28CD-43E8-B00B-B9F98EC93A33 - a9ef9eae3523270b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REEL2021.Memories.table.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "REEL2021"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hakim/Desktop/REEL2021/REEL2021/Controller/Memories.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "914AC92D-28CD-43E8-B00B-B9F98EC93A33 - 16ebee6d8240890f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REEL2021.Memories.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; REEL2021.Memories"
+                  moduleName = "REEL2021"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hakim/Desktop/REEL2021/REEL2021/Controller/Memories.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "257">
+               </Location>
+               <Location
+                  uuid = "914AC92D-28CD-43E8-B00B-B9F98EC93A33 - e7f0d3c729988dd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "REEL2021.Memories.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;REEL2021.Memories&gt;"
+                  moduleName = "REEL2021"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hakim/Desktop/REEL2021/REEL2021/Controller/Memories.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "198">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

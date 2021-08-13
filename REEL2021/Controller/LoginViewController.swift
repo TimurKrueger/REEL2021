@@ -14,10 +14,7 @@ class LoginNavigationController: UINavigationController {
 }
 
 class TabBarController : UITabBarController {
-    
-    @IBOutlet weak var signOut: UIButton!
-    
-    
+        
     // MARK: Two navigation controllers with a view controller and a tabbar controller are not compatible, so the tab bar is the main controller and the login controller is simply presented on top of the home view controller
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,21 +28,6 @@ class TabBarController : UITabBarController {
             }
         }
     }
-    
-    @IBAction func signOutTapped(_ sender: Any) {
-        //Signing out the user
-        do {
-       try Auth.auth().signOut()
-            
-        // MARK: If signing out is successful, the login view controller should be presented
-        let destination = self.storyboard!.instantiateViewController(identifier: "LoginNavigationController") as! LoginNavigationController
-            self.present(destination, animated: true, completion: nil)
-        } catch let error {
-            print("Failed to sign out user")
-        }
-    }
-    
-    
 }
 
 
@@ -91,7 +73,7 @@ class LoginViewController: UIViewController {
                 self.errorLabel.alpha = 1
             }
             else {
-            
+            print("login success")
                 // MARK: If signing in was successful, the login view controller shoul be dismissed so that the tab bar controller is seen
                 self.dismiss(animated: true, completion: nil)
             }
